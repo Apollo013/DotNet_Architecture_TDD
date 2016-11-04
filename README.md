@@ -21,7 +21,7 @@ Developed with Visual Studio 2015 Community
 |Project To Test|Test Project|Description|
 |---------------|------------|-----------|
 |Application.NUnit.Domain|Application.NUnit.Domain.Tests|Demonstrates the 3A's, Categorizing & setting up test fixtures, using multiple test fixtures for running multiple tests using different arguments, and handling expected exceptions|
-|Application.Moq.Domain|Application.Moq.Domain.Tests|Demonstrates some of the above and testing components within a service|
+|Application.Moq.Domain|Application.Moq.Domain.Tests|Demonstrates some of the above and mocking components within a service|
 
 ---
 
