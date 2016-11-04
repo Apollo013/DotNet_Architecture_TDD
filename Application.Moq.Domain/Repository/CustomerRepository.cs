@@ -7,8 +7,10 @@ namespace Application.Moq.Domain.Repository
     {
         public bool Save(ICustomer customer)
         {
+            System.Console.WriteLine("persisting a single customer");
             if (customer == null)
             {
+                System.Console.WriteLine("repo save error");
                 throw new CannotBeNullException("customer null");
             }
 

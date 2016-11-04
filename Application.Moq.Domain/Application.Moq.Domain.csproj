@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers\Customer.cs" />
     <Compile Include="Customers\ICustomer.cs" />
+    <Compile Include="Emailing\CreateMail.cs" />
     <Compile Include="Emailing\GMailClient.cs" />
     <Compile Include="Emailing\ICreateMail.cs" />
     <Compile Include="Emailing\IMail.cs" />

@@ -2,8 +2,8 @@
 {
     public interface IMail
     {
-        string From { get; }
-        string To { get; }
+        string From { get; set; }
+        string To { get; set; }
         string Subject { get; }
         string Body { get; }
     }

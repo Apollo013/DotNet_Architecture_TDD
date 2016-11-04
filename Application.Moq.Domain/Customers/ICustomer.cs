@@ -1,8 +1,8 @@
 ﻿namespace Application.Moq.Domain.Customers
 {
-    public class ICustomer
+    public interface ICustomer
     {
-        public string Name { get; set; }
-        public string Email { get; set; }
+        string Name { get; }
+        string Email { get; }
     }
 }

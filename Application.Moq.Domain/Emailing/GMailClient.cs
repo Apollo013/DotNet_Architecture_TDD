@@ -12,7 +12,18 @@ namespace Application.Moq.Domain.Emailing
         {
             if (email == null)
             {
+                System.Console.WriteLine("email error");
                 throw new CannotBeNullException("email");
+            }
+            if (string.IsNullOrWhiteSpace(Port))
+            {
+                System.Console.WriteLine("Port error");
+                throw new CannotBeNullException("Port");
+            }
+            if (string.IsNullOrWhiteSpace(Server))
+            {
+                System.Console.WriteLine("Server error");
+                throw new CannotBeNullException("Server");
             }
             return true;
         }
