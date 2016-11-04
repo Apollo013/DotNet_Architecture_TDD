@@ -1,6 +1,6 @@
-# DotNet_Architecture_TDD
+# DotNet_Testing_Frameworks
 
-Demonstrates use of NUnit &amp; Moq in a TDD app.
+Demonstration of NUnit &amp; Moq.
 
 ---
 
@@ -27,7 +27,9 @@ Developed with Visual Studio 2015 Community
 ###Resources
 |Title|Author|Website|
 |-----|------|-------|
+|[Moq4](https://github.com/Moq/moq4/wiki/Quickstart)||GitHub|
+|[Entity Framework Testing with a Mocking Framework (EF6 onwards)](https://msdn.microsoft.com/en-us/library/dn314429(v=vs.113).aspx||MSDN|
 |[Test Driven Development](https://dotnetcodr.com/test-driven-development/)|Andras Nemes|dotnetcodr|
 |[KickStart your Unit Testing using Moq](http://www.codeproject.com/Articles/796014/KickStart-your-Unit-Testing-using-Moq)|Adarsh Chaurasia|Code Project|
-|[Moq4](https://github.com/Moq/moq4/wiki/Quickstart)||GitHub|
+
 
