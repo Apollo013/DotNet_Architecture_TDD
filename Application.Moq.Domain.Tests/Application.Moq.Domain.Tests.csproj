@@ -55,7 +55,6 @@
     <Compile Include="Customer_Service_Tests\When_Creating_A_New_Customer_Service.cs" />
     <Compile Include="Customer_Service_Tests\When_Creating_Many_Customers.cs" />
     <Compile Include="Customer_Service_Tests\When_Creating_A_Single_Customer.cs" />
-    <Compile Include="Emailing_Tests\When_Sending_Mail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

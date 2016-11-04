@@ -20,11 +20,13 @@ namespace Application.Moq.Domain.Services
             }
             if (mailClient == null)
             {
+                System.Console.WriteLine("null client");
                 throw new CannotBeNullException("mail client");
             }
 
             if (createMailService == null)
             {
+                System.Console.WriteLine("null create service");
                 throw new CannotBeNullException("mail create service");
             }
 
@@ -45,9 +47,9 @@ namespace Application.Moq.Domain.Services
 
                 _repo.Save(customer);
 
-                var mail = _createMailService.Create(customer); //new StandardMail(customer.Email, "From Me", "HOWYA MARY !!", "Welcome"); ;//
+                var mail = _createMailService.Create(customer);
 
-                var rv = _mailClient.SendMail(mail);// new StandardMail() { To = customer.Email, Body = "HOWYA MARY !!", Subject = "Welcome" });
+                var rv = _mailClient.SendMail(mail);
 
                 return rv;
             }
@@ -55,14 +57,6 @@ namespace Application.Moq.Domain.Services
             {
                 throw;
             }
-            /*
-            if (_repo.Save(customer))
-            {
-                var mail = _createMailService.Create(customer);
-                return _mailClient.SendMail(mail);// new StandardMail() { To = customer.Email, Body = "HOWYA MARY !!", Subject = "Welcome" });
-            }
-            */
-            //return false;
         }
 
         public void SaveMany(List<ICustomer> customers)
